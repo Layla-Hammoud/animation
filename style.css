@@ -5,6 +5,7 @@ body {
 
 .container{
     animation: morph 3s infinite;
+    display: flex;
 }
 .avatar{
     width:200px;
