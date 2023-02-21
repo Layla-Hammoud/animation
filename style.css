@@ -6,6 +6,17 @@ body {
 .container{
     animation: morph 3s infinite;
 }
+.avatar{
+    width:200px;
+    height: 200px;
+    margin: 2rem;
+    border-radius: 50%;
+    transition: transform 1s ;
+}
+.avatar:hover{
+    transform: rotate(1080deg) scale(2);
+}
+
 
 @keyframes morph {
     0% {
